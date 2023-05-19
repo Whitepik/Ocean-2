@@ -1,6 +1,6 @@
 
   services:
   - type: web
-    name: interstellar
+    name: blackhole4g
     env: docker
     plan: free
