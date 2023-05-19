@@ -10,6 +10,6 @@
 
  BlackHole4G V2 will not work on Vercel, Netlify or Cloudflare Pages.
 
-<a href="https://render.com/deploy?repo=https://github.com/truecati3/interstellar">
+<a href="https://render.com/deploy?repo=https://github.com/truecati3/blackhole5g">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
 </a>
