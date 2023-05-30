@@ -1,6 +1,6 @@
 
   services:
   - type: web
-    name: blackhole4g
+    name: Just4Fun
     env: docker
     plan: free
