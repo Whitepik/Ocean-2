@@ -10,10 +10,10 @@
   <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
-          <a onclick="go('')">
-            <img loading="lazy" src="" style="border-radius: 25px;" />
+          <a onclick="go('URL')">
+            <img loading="lazy" src="IMAGE" style="border-radius: 25px;" />
           </a>
-          <p3>  </p3>
+          <p3> NAME </p3>
         </div>
       </div>
     </div>      
