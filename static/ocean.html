@@ -45,7 +45,17 @@
       height: 100%;
       z-index: -1;
     }
-     </style>
+
+    .row {
+      position: relative;
+      z-index: 1;
+    }
+
+    .card {
+      position: relative;
+      z-index: 1;
+    }
+ </style>
   </head>
   <body>
       <div id="tsparticles"></div>
@@ -82,7 +92,7 @@
         }
       });
     </script>
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://tubitv.com')">
@@ -92,7 +102,7 @@
         </div>
       </div>
     </div>
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://shredsauce.com')">
@@ -102,7 +112,7 @@
         </div>
       </div>
     </div>
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://youtube.com')">
@@ -112,7 +122,7 @@
         </div>
       </div>
     </div>
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://google.com')">
@@ -122,7 +132,7 @@
         </div>
       </div>
     </div>
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://tiktok.com')">
@@ -132,7 +142,7 @@
         </div>
       </div>
     </div>
-      <div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy" style="padding-top: 5px;">
           <a onclick="go('https://chess.com')">
@@ -142,7 +152,7 @@
         </div>
       </div>
     </div>
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://kirka.io/')">
@@ -152,7 +162,7 @@
         </div>
       </div>
     </div>     
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://1v1.lol/')">
@@ -162,7 +172,7 @@
         </div>
       </div>
     </div>       
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://v6p9d9t4.ssl.hwcdn.net/html/1792221/ItchIO/index.html')">
@@ -172,7 +182,7 @@
         </div>
       </div>
     </div>  
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://slopegame.io/')">
@@ -182,7 +192,7 @@
         </div>
       </div>
     </div>    
-<div class="row">
+    <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
           <a onclick="go('https://bitlife-3qo3e2yki-hybr1dz77.vercel.app')">
@@ -191,7 +201,7 @@
           <p3> Bitlife </p3>
         </div>
       </div>
-    </div>       
+    </div>
   <div class="row">
       <div class="span1">
         <div class="card animals" loading="lazy">
@@ -532,54 +542,5 @@
         </div>
       </div>
     </div>
-    </script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
-  <script type="text/javascript">
-    const options = {
-      background: {
-        color: "#222",
-      },
-      interactivity: {
-        events: {
-          onClick: {
-            enable: true,
-            mode: "push",
-          },
-          onHover: {
-            enable: false,
-            mode: "repulse",
-          },
-        },
-        modes: {
-          push: {
-            quantity: 6,
-          },
-          repulse: {
-            distance: 100,
-          },
-        },
-      },
-      particles: {
-        links: {
-          enable: true,
-          opacity: 0.3,
-          distance: 200,
-        },
-        move: {
-          enable: true,
-          speed: { min: 1, max: 3 },
-        },
-        opacity: {
-          value: { min: 0.3, max: 0.7 },
-        },
-        size: {
-          value: { min: 1, max: 3 },
-        },
-      },
-    };
-
-    tsParticles.load("tsparticles", options);
-  </script>
   </body>
 </html>
