@@ -83,7 +83,7 @@ border-style: solid;
 		overflow: hidden;
 }
 .particles-js-canvas-el {
-   z-index: 0;
+   z-index: -1;
    top: 0;
    left: 0;
    position: absolute;
